@@ -1,144 +1,472 @@
-# Socratic Sieve v3 ✦ Epistemic Cartography Workspace
+# Socratic Sieve v3 ✦ Epistemic Cartography & Theory Formation Workspace
 
-Socratic Sieve v3 is an interactive **Epistemic Cartography Workspace** designed to map the logical structure of Knowledge formation, track conceptual lineages, analyze observation dependencies, and visualize irreducible dialectical disagreements.
+Socratic Sieve v3 is an interactive **Epistemic Cartography & Theory Formation Workspace** designed to map the structure of knowledge formation, trace conceptual lineages, analyse observation dependencies, localise irreducible disagreements, and discover the deeper research programmes hidden within discourse.
 
-Rather than acting merely as a multi-agent debate simulator, **Socratic Sieve v3** shifts the focus from persuasive dialogue to rigorous conceptual mapping. The conversation is treated as the excavation mechanism, and the final interactive map—an **Epistemic Atlas**—is the primary artifact. The application helps users answer not *"Who is right?"*, but rather: **"What would have to be true for this position to be correct?"**
+Rather than acting as a multi-agent debate simulator, **Socratic Sieve v3** treats discussion as an epistemic excavation process. Dialogue becomes the mechanism through which assumptions are exposed, concepts evolve, observations are separated from abstractions, and unresolved tensions become visible.
+
+The primary artefact is an interactive **Epistemic Atlas**—a structured map of the logical terrain explored during reasoning. Once the atlas has stabilised, the system performs a second-order analysis to identify the underlying scientific or philosophical problems that generated the discussion, producing candidate research programmes and doctoral-level thesis proposals.
+
+Socratic Sieve therefore shifts the central question away from:
+
+> **"Who is right?"**
+
+towards:
+
+- **What would have to be true for this position to be correct?**
+- **Which assumptions generated this disagreement?**
+- **How did the conceptual landscape evolve?**
+- **What deeper research question does this debate accidentally reveal?**
 
 ---
 
-## 🧭 Core Philosophy & Key Pillars
+# 🧭 Core Philosophy
 
-Socratic Sieve v3 operates on five core architectural mandates that transform philosophical debate into structured, verifiable knowledge maps:
+Socratic Sieve is founded on a simple premise:
 
-### 1. No Concept Without Provenance
-Every concept introduced into discourse carries permanent provenance. Concepts originate from one of four sources:
-* **User-supplied**: Provided directly in the initial topic prompt.
-* **Emergent**: Discovered organically during dialogue iterations.
-* **Operational proxy**: Extracted to serve as a measurable stand-in for complex constructs.
-* **Normative abstraction**: Prescriptive rules or moral parameters.
+> **The purpose of discourse is not merely to establish truth, but to reveal the structure within which truth claims become possible.**
 
-Users can trace any concept back to the exact round, agent, and parental concepts from which it was derived.
+The system therefore treats every discussion as a dynamic exploration of conceptual space.
 
-### 2. Concepts Are Not Observations (Construct Audit)
-To prevent theoretical ideas from masquerading as measured physical variables, the workspace enforces a strict taxonomy:
-* **Direct Observation**: Directly, independently verifiable data (e.g., photo count, retention duration).
-* **Composite Observable**: Derived and calculated from multiple observations (e.g., social cohesion indexes).
-* **Latent Construct**: A theoretical model inferred from observations (e.g., future autonomy loss).
-* **Pure Theoretical Construct**: High-level explanatory frameworks (e.g., human dignity, authenticity).
+Its objective is not persuasion.
 
-The user interface explicitly distinguishes these categories visually to prevent category errors.
+Its objective is cartography.
 
-### 3. Concept Lifecycles
-Concepts are never merely "accepted." They follow a rigorous, state-controlled lifecycle:
+The debate itself is transient.
+
+The evolving topology of knowledge is the product.
+
+---
+
+# 🏛 Core Architectural Pillars
+
+## 1. No Concept Without Provenance
+
+Every concept introduced into discourse carries permanent provenance.
+
+Each concept records:
+
+- Originating agent
+- Debate round
+- Parent concepts
+- Supporting observations
+- Operational definitions
+- Evolution history
+
+Concepts originate from one of four sources:
+
+- User supplied
+- Emergent
+- Operational proxy
+- Normative abstraction
+
+Nothing appears without lineage.
+
+---
+
+## 2. Constructs Are Not Observations
+
+To prevent category errors, every entity is explicitly classified.
+
+- Direct Observation
+- Composite Observable
+- Operational Proxy
+- Latent Construct
+- Pure Theoretical Construct
+- Normative Principle
+
+The workspace visually distinguishes measurable reality from explanatory models.
+
+---
+
+## 3. Concept Lifecycles
+
+Ideas are treated as evolving objects rather than static definitions.
+
 ```
-Introduced  ──>  Tentative  ──>  Operational Candidate  ──>  Operationalised  ──>  Established Construct
-                                                                                  │
-                                                                                  └──>  Split / Merged / Collapsed / Deprecated
-```
-* **Promotion to Established**: Requires that multiple agents independently converge on its usefulness, it survives at least two direct Socratic attacks, and observers accept its definition despite disagreeing on implications.
-* **Collapse Rules**: Occurs when no operational definition survives, redundancy is detected, or the concept is revealed to be purely rhetorical.
-
-### 4. claim Dependency Graph (DAG Topology)
-Claims do not exist as flat lists; they are connected as a **Directed Acyclic Graph (DAG)**. Every assertion answers: *“What assumptions must already hold before this claim becomes meaningful?”*
-The workspace dynamically isolates **Root Assumptions**—the foundational axioms from which multiple downstream disagreements emerge—and allows users to collapse discussions onto these critical nodes.
-
-### 5. Epistemic Inspector v2 & Disagreement Taxonomy
-An active, real-time inspection engine that evaluates every concept on multiple independent dimensions:
-* **Taxonomy of Disagreement**: Classifies clashes as *Definition, Measurement, Causal Linkage, Value Alignment, Ontological Basis,* or *Meta-epistemic*.
-* **Five-Dimensional Stability**: Tracks maturity across independent axes:
-  1. *Definition Completeness* (shared definitions)
-  2. *Operational Completeness* (measurability)
-  3. *Observer Consensus* (observational alignment)
-  4. *Dependency Robustness* (logical foundation stability)
-  5. *Epistemic Maturity* (disagreement localization)
-
----
-
-## 🎨 Core Design & Visual Concept
-
-Socratic Sieve v3 features a dark, immersive **Cosmic Slate Theme** structured for deep intellectual and analytical focus:
-* **Interactive Atlas DAG Map**: A responsive canvas mapping the logical dependency graph. Clicking any node illuminates its analytical parentage (Preconditions) and downstream impact (Consequences).
-* **Construct Audit Matrix**: A dedicated audit deck displaying the operational status, categories, and observation-to-theory requirements for all active concepts.
-* **Duality Friction Panel**: Displays irreducible dialectical tension, pairing divergent observer interpretations (Observer A vs. Observer B) side-by-side.
-* **Concept Lineage Timeline**: Replays the genealogy of ideas, categorizing concepts as *Original, Generated, Adopted,* or *Discarded* to track genuine conceptual discovery.
-
----
-
-## 🧠 Specialized Multi-Agent Roles
-
-Socratic Sieve v3 coordinates a suite of highly specialized agents to build and verify the epistemic map, explicitly focused on uncovering core philosophical and moral dimensions while avoiding over-operationalization rabbit holes:
-
-### 1. Socrates v3 (The Socratic Eliminator)
-Socrates acts as an eliminative refuter. Rather than introducing technical objections or endless detail, Socrates guides the dialogue into high-level philosophical, conceptual, and moral/ethical core tensions. Within a maximum of 5 rounds, Socrates drives the participants to reveal deep-seated moral contradictions and boundary conditions.
-
-### 2. Epistemic Cartographer (Dedicated Mapper)
-An agent with no stance in the debate. Its sole responsibility is to map: identifying root assumptions, discovering hidden dependency chains, detecting conceptual convergence or divergence, and recommending unexplored intellectual branches.
-
-### 3. Model Builder
-A balanced explorer who focuses on what is simple and easy to investigate. Rather than getting lost in endless technical operational details or dense constructs, the Model Builder outlines simple observable starting points and quickly pivots back to help the group explore broader philosophical and moral implications.
-
-### 4. Normative Auditor
-Isolates implicit value judgments, moral biases, or prescriptive weights hiding inside seemingly descriptive, empirical claims, urging participants to discuss underlying moral and ethical values directly.
-
-### 5. Synthesis Engine v2 (The Epistemic Atlas)
-Replaces passive summaries with a comprehensive **Epistemic Atlas** report. This report details concept evolution timelines, root assumptions, stable observations, contested constructs, value assumptions, outstanding empirical questions, and promoted or collapsed constructs.
-
----
-
-## 🎛️ Discussion Complexity & Local LLM Optimization
-
-To facilitate seamless offline operations and support varying compute resource footprints (specifically local LLMs running via **Ollama** or **LM Studio**), Socratic Sieve v3 introduces a dynamic **Discussion Complexity Control**:
-
-* **Dynamically Constrained Contexts**: The slider scales prompt vocabulary constraints and generation targets, matching response lengths to LLM capacity.
-* **Token Hard-Limits**: Integrates token restrictions (`max_tokens`) directly into the local LLM fetch requests to prevent generation runaway and minimize GPU/CPU utilization spikes.
-* **Complexity Profiles**:
-  1. **Level 1 (Minimal)**: Ultra-short, rapid responses (under 60 words). Optimized for low-end local hardware running 1B-3B parameter models.
-  2. **Level 2 (Concise)**: Fast, compact responses (80-120 words) for 3B-7B parameter models.
-  3. **Level 3 (Standard)**: The recommended baseline (100-180 words) for well-balanced reasoning depth and token efficiency.
-  4. **Level 4 (Comprehensive)**: Extended arguments (180-300 words) suited for robust 8B-14B local models or Gemini.
-  5. **Level 5 (Exhaustive)**: Academic-density, maximum elaboration responses (300-500 words) for high-end local setups (30B+) or cloud engines.
-
----
-
-## ⚙️ Architecture & Technical Stack
-
-The workspace is a robust full-stack container application designed for rapid development and containerized deployment:
-* **Frontend**: React 18+ with **Vite**, styled with utility-first **Tailwind CSS**, and utilizing **Motion** for fluid DAG state transitions.
-* **Backend**: **Express** web server (configured on the mandatory port `3000`).
-* **AI Orchestration**: Server-side integrations using the official `@google/genai` TypeScript SDK (leveraging Gemini 2.5 Flash and Gemini 1.5 Pro).
-* **Build pipeline**: Direct TS execution using `tsx` in development, compiled to a bundled CommonJS node file (`dist/server.cjs`) using `esbuild` for deployment.
-
----
-
-## 🚀 Local Setup & Installation
-
-Ensure you have [Node.js](https://nodejs.org/) (v18.x or higher) and [npm](https://www.npmjs.com/) installed.
-
-### 1. Clone & Navigate
-```bash
-cd socratic-sieve
+Introduced
+      │
+      ▼
+Tentative
+      │
+      ▼
+Operational Candidate
+      │
+      ▼
+Operationalised
+      │
+      ▼
+Established Construct
+      │
+      ├── Split
+      ├── Merge
+      ├── Collapse
+      └── Deprecated
 ```
 
-### 2. Install Dependencies
+Promotion requires:
+
+- Independent convergence
+- Survival through Socratic challenge
+- Stable operational definition
+- Observer agreement on meaning
+
+Collapse occurs when:
+
+- Operationalisation fails
+- Redundancy is discovered
+- The construct proves rhetorical rather than explanatory
+
+---
+
+## 4. Claim Dependency Topology
+
+Claims exist as a Directed Acyclic Graph rather than a flat conversation.
+
+Every claim answers:
+
+> **What assumptions must already be true before this claim becomes meaningful?**
+
+The atlas exposes:
+
+- Root assumptions
+- Dependency chains
+- Downstream consequences
+- Hidden conceptual bottlenecks
+- Structural fault lines
+
+---
+
+## 5. Epistemic Inspector
+
+Every concept is continuously evaluated across independent dimensions.
+
+Disagreements are classified as:
+
+- Definition
+- Measurement
+- Causal
+- Normative
+- Ontological
+- Meta-epistemic
+
+Every construct receives independent maturity scores for:
+
+- Definition completeness
+- Operational completeness
+- Observer agreement
+- Dependency robustness
+- Epistemic maturity
+
+---
+
+## 6. Theory Formation Through Epistemic Compression
+
+Once the Epistemic Atlas stabilises, the workspace begins a second phase.
+
+Instead of asking:
+
+> "What did the debate conclude?"
+
+it asks:
+
+> **"What research programme generated this debate?"**
+
+The atlas becomes qualitative research data.
+
+The system searches for:
+
+- Hidden assumptions
+- Conceptual migrations
+- Repeating structural tensions
+- Cross-disciplinary patterns
+- Opportunities for conceptual compression
+
+The objective is to discover the smallest and deepest unresolved research problem exposed by the discussion.
+
+---
+
+# 🎨 Workspace Design
+
+The interface is organised around an immersive **Cosmic Slate** visual environment.
+
+Major workspace components include:
+
+## Epistemic Atlas
+
+Interactive dependency graph displaying:
+
+- Concepts
+- Claims
+- Dependencies
+- Preconditions
+- Consequences
+- Root assumptions
+
+---
+
+## Construct Audit Matrix
+
+Live audit of every construct including:
+
+- Category
+- Operational status
+- Supporting observations
+- Stability
+- Provenance
+- Dependency depth
+
+---
+
+## Dialectical Tension Panel
+
+Displays irreducible disagreements side-by-side.
+
+Rather than forcing consensus, the system localises disagreement precisely.
+
+---
+
+## Concept Lineage Explorer
+
+A complete genealogy of conceptual evolution.
+
+Tracks:
+
+- Original concepts
+- Derived concepts
+- Merged concepts
+- Split concepts
+- Deprecated concepts
+- Collapsed constructs
+
+---
+
+## Research Programme Explorer
+
+Displays:
+
+- Conceptual migrations
+- Hidden assumptions
+- Candidate research domains
+- Thesis proposals
+- Literature intersections
+- Testable hypotheses
+
+---
+
+# 🧠 Multi-Agent Architecture
+
+## 1. Socrates v3
+
+The eliminative moderator.
+
+Rather than introducing new ideas, Socrates systematically removes ambiguity.
+
+Its objective is to expose:
+
+- hidden assumptions
+- conceptual boundaries
+- philosophical tensions
+- ethical discontinuities
+
+---
+
+## 2. Epistemic Cartographer
+
+Maintains the evolving knowledge map.
+
+Responsibilities include:
+
+- dependency tracking
+- lineage construction
+- convergence detection
+- disagreement localisation
+- topology maintenance
+
+---
+
+## 3. Model Builder
+
+Constructs operational models.
+
+Focuses on:
+
+- measurable variables
+- simple experiments
+- operational definitions
+- empirical starting points
+
+---
+
+## 4. Normative Auditor
+
+Separates descriptive claims from normative commitments.
+
+Identifies:
+
+- value judgements
+- ethical assumptions
+- hidden prescriptions
+- implicit weighting systems
+
+---
+
+## 5. Synthesis Engine
+
+Produces the canonical **Epistemic Atlas**.
+
+This includes:
+
+- dependency graphs
+- construct audits
+- lineage histories
+- disagreement maps
+- observation provenance
+- unresolved questions
+
+The Atlas serves as the intermediate representation consumed by downstream agents.
+
+---
+
+## 6. PhD Thesis Builder
+
+The Thesis Builder does not summarise debates.
+
+Instead it asks:
+
+> **"What deeper research problem caused this discussion to exist?"**
+
+Treating the completed Epistemic Atlas as qualitative research data, it:
+
+- identifies conceptual migration between disciplines
+- compresses numerous claims into fundamental research problems
+- discovers hidden assumptions
+- distinguishes latent constructs from operational proxies
+- identifies the highest defensible level of abstraction
+- proposes doctoral-level research programmes
+- generates research questions, hypotheses, methodologies and literature intersections
+
+The objective is not to extend the debate.
+
+It is to discover the research programme that the debate accidentally uncovered.
+
+---
+
+# 🎓 From Debate to Research
+
+Every investigation progresses through successive epistemic layers.
+
+```
+Question
+
+↓
+
+Dialogue
+
+↓
+
+Concept Discovery
+
+↓
+
+Construct Audit
+
+↓
+
+Dependency Mapping
+
+↓
+
+Epistemic Atlas
+
+↓
+
+Conceptual Compression
+
+↓
+
+Research Programme
+
+↓
+
+PhD Thesis Proposal
+```
+
+The final thesis is therefore not a summary of the discussion.
+
+It is a hypothesis about the deeper scientific or philosophical problem revealed by the topology of the discussion.
+
+---
+
+# 🎛 Discussion Complexity
+
+The workspace supports local and cloud LLMs through adaptive discussion complexity.
+
+Five profiles optimise vocabulary, reasoning depth and token budgets for hardware ranging from 1B local models to frontier cloud systems.
+
+Levels range from:
+
+- Minimal
+- Concise
+- Standard
+- Comprehensive
+- Exhaustive
+
+allowing the epistemic process—not simply the response length—to scale with available compute.
+
+---
+
+# ⚙ Architecture
+
+Frontend
+
+- React 18
+- Vite
+- TailwindCSS
+- Motion
+
+Backend
+
+- Express
+- TypeScript
+
+AI Orchestration
+
+- Gemini SDK
+- Ollama
+- LM Studio
+
+Development
+
+- tsx
+- esbuild
+
+---
+
+# 🚀 Installation
+
 ```bash
 npm install
 ```
 
-### 3. Configure Environment Variables
-Create a `.env` file in the project root:
-```env
-GEMINI_API_KEY="your_google_gemini_api_key"
-APP_URL="http://localhost:3000"
+Create
+
+```
+.env
 ```
 
-### 4. Run Development Workspace
+```
+GEMINI_API_KEY=your_key
+APP_URL=http://localhost:3000
+```
+
+Run
+
 ```bash
 npm run dev
 ```
-Navigate to **`http://localhost:3000`** in your browser to explore the epistemic atlas.
 
-### 5. Build for Production
-To bundle and optimize:
+Build
+
 ```bash
 npm run build
 npm run start
@@ -146,5 +474,26 @@ npm run start
 
 ---
 
-## 📄 License
-This project is private and proprietary. All rights reserved.
+# 🌍 Vision
+
+Socratic Sieve is not intended to replace human reasoning.
+
+Its purpose is to make reasoning visible.
+
+By mapping how concepts emerge, evolve, diverge and stabilise, the workspace provides a living cartography of knowledge formation.
+
+Rather than producing answers, it produces landscapes.
+
+Rather than selecting winners, it exposes assumptions.
+
+Rather than ending conversations, it identifies the deeper questions that remain worth asking.
+
+Ultimately, Socratic Sieve seeks to transform discourse into an evolving atlas of human understanding—one in which debates become surveys, theories become landmarks, and every investigation contributes to a richer map of conceptual space.
+
+---
+
+# 📄 License
+
+Private and Proprietary.
+
+All Rights Reserved.
