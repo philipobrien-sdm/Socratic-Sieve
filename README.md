@@ -1,4 +1,5 @@
 # Socratic Sieve v3 ✦ Epistemic Cartography & Theory Formation Workspace
+<img width="1903" height="892" alt="Screenshot 2026-06-27 230121" src="https://github.com/user-attachments/assets/af136681-f2b2-4efd-a5dd-ba0e3eb29318" />
 
 Socratic Sieve v3 is an interactive **Epistemic Cartography & Theory Formation Workspace** designed to map the structure of knowledge formation, trace conceptual lineages, analyse observation dependencies, localise irreducible disagreements, and discover the deeper research programmes hidden within discourse.
 
