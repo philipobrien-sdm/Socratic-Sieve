@@ -1,0 +1,6 @@
+{
+  "name": "Socratic Sieve",
+  "description": "An epistemic cartography workspace that maps the logical structure of reasoning, tracking concept lineages, observation dependencies, and dialetical disagreements.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
